@@ -1,9 +1,10 @@
 import os
 import time
 import JsonProcessingFunctions
+import UserClass
 
 def makeneededfiles():
-    folderstocheck = ['BusArrivalsRequest', 'BusServicesRequest', 'BusRoutesRequest', 'BusStopsRequest']
+    folderstocheck = ['BusArrivalsRequest', 'BusServicesRequest', 'BusRoutesRequest', 'BusStopsRequest', 'Routes_BusService']
     for folder in folderstocheck:
         if(os.path.isdir(folder)):
             pass
@@ -17,9 +18,8 @@ def firstrungendata():
     
 
 def main():
-    
-    JsonProcessingFunctions.benchtest()
-    return
+
+    return 
 
 
 if __name__ == "__main__":

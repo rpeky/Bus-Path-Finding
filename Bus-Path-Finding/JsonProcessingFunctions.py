@@ -110,9 +110,9 @@ def BusStopsData(skip):
         json.dump(jsonObj, outfile, sort_keys=True, indent=4, ensure_ascii=False)
     return
 
-def generate_busstopdict():
+# def generate_busstopdict():
     
-    pass
+#     pass
 
 # loading locations
 # file_loc      filesuffix                      folderlocation
@@ -121,6 +121,7 @@ def generate_busstopdict():
 #    2          _ServicesData.json              BusServicesRequest
 #    3          _RoutesData.json                BusRoutesRequest
 #    4          _StopsData.json                 BusStopsRequest
+#    5          _ServiceRouteInfo.json          Routes_BusService
 
 def open_load_json(file_idx, file_loc):
     
@@ -129,7 +130,8 @@ def open_load_json(file_idx, file_loc):
         '_ArrivalData.json',
         '_ServicesData.json',
         '_RoutesData.json',
-        '_StopsData.json'        
+        '_StopsData.json'  ,
+        '_ServiceRouteInfo.json'
         ]    
     
     folderlocation = [
@@ -137,7 +139,8 @@ def open_load_json(file_idx, file_loc):
         'BusArrivalsRequest',
         'BusServicesRequest',
         'BusRoutesRequest',
-        'BusStopsRequest'
+        'BusStopsRequest',
+        'Routes_BusService'
         ]
 
     filename = str(file_idx)+str(filesuffix[int(file_loc)])
@@ -163,41 +166,48 @@ def BuildBusData():
 
 #bsc list should contain a tuple containing the bus stop code and which stopsdata page the stop is in (for future reference if needed)
     bsclist=[]
-    for i in range(11):
-        stopdatapage = open_load_json(i,4)
-        for bsc in stopdatapage['value']:
-            bsclist.append((bsc['BusStopCode'],i))
-            
-    bsnlist=[]
-    for i in range(2):
-        servicesdata = open_load_json(i,2)
-        for bsn in servicesdata['value']:
-            bsnlist.append((bsn['ServiceNo'],i))
-            
-    for bsc in bsclist:
-        BusArrivalData(bsc[0])
-        
-
-            
-    return
-
-def benchtest():
-    bsclist=[]
+    bsclisttostore=[]
     for i in range(11):
         stopdatapage = open_load_json(i,4)
         for bsc in stopdatapage['value']:
             bsclist.append((bsc['BusStopCode'],i,bsc['Description']))
+            bsclisttostore.append(bsc['BusStopCode'])
+    with open('bsclisttostore.json','w') as outfile:
+        json.dump(bsclisttostore, outfile)        
             
     bsnlist=[]
+    bsnlisttostore=[]
     for i in range(2):
         servicesdata = open_load_json(i,2)
         for bsn in servicesdata['value']:
             bsnlist.append((bsn['ServiceNo'],i))
+            bsnlisttostore.append(bsn['ServiceNo'])
+    with open('bsnlisttostore.json','w') as outfile:
+        json.dump(bsnlisttostore, outfile)   
+            
+    for bsc in bsclist:
+        BusArrivalData(bsc[0])
+ 
+    return
+
+def generate_busserviceroute(busservno):
+    direc1stops=[]
+    direc2stops=[]
+    serviceroute = {'d1':direc1stops, 
+                    'd2':direc2stops}
+    #maybe can integrate into build data when generating the routesdata json, test if fn works first tho
+    for data in range(51):
+        pass
     
-    print(bsclist)
-    print(len(bsclist))
-    print(bsnlist)
-    print(len(bsnlist))
-    
+    filetoadd = busservno+"_ServiceRouteInfo.json"
+    cwd = os.getcwd()
+    newdir = os.path.join(cwd, 'Routes_BusService')
+    full_path = os.path.join(newdir, filetoadd)
+    with open(full_path,'w') as outfile:
+        json.dump(serviceroute, outfile, sort_keys=True, indent=4, ensure_ascii=False)
+    return
+
+def benchtest():
+
     
     return

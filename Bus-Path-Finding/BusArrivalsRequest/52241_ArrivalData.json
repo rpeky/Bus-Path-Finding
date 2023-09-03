@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "52241",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "52009",
+                "EstimatedArrival": "2023-09-03T17:29:14+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3261736666666666",
+                "Load": "SEA",
+                "Longitude": "103.8417705",
+                "OriginCode": "80009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "52009",
+                "EstimatedArrival": "2023-09-03T17:40:52+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.316021",
+                "Load": "SEA",
+                "Longitude": "103.85193233333334",
+                "OriginCode": "80009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "52009",
+                "EstimatedArrival": "2023-09-03T17:54:31+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3093466666666667",
+                "Load": "SEA",
+                "Longitude": "103.86742683333334",
+                "OriginCode": "80009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "141"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

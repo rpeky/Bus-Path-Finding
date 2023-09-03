@@ -1,0 +1,80 @@
+{
+    "BusStopCode": "46589",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:26:43+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4347953333333334",
+                "Load": "SEA",
+                "Longitude": "103.77744483333333",
+                "OriginCode": "46009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:34:35+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4381591666666667",
+                "Load": "SEA",
+                "Longitude": "103.78915566666667",
+                "OriginCode": "46009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:39:59+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.44336",
+                "Load": "SEA",
+                "Longitude": "103.794146",
+                "OriginCode": "46009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SMRT",
+            "ServiceNo": "911"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:29:29+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4341786666666667",
+                "Load": "SEA",
+                "Longitude": "103.77255616666666",
+                "OriginCode": "46009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:33:28+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4402168333333334",
+                "Load": "SEA",
+                "Longitude": "103.778863",
+                "OriginCode": "46009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:40:38+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4367801666666666",
+                "Load": "SEA",
+                "Longitude": "103.78554166666666",
+                "OriginCode": "46009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SMRT",
+            "ServiceNo": "913"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

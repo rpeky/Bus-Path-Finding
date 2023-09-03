@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "66601",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "66009",
+                "EstimatedArrival": "2023-09-03T17:32:50+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.379814",
+                "Load": "SEA",
+                "Longitude": "103.88821066666667",
+                "OriginCode": "66009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "66009",
+                "EstimatedArrival": "2023-09-03T17:38:48+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3719326666666667",
+                "Load": "SDA",
+                "Longitude": "103.88608333333333",
+                "OriginCode": "66009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "66009",
+                "EstimatedArrival": "2023-09-03T17:48:28+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3653265",
+                "Load": "SEA",
+                "Longitude": "103.89043016666666",
+                "OriginCode": "66009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "101"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

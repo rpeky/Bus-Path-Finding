@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "44941",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "24009",
+                "EstimatedArrival": "2023-09-03T17:50:44+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3778023333333334",
+                "Load": "SEA",
+                "Longitude": "103.75047833333333",
+                "OriginCode": "24009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "24009",
+                "EstimatedArrival": "2023-09-03T17:58:33+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3897001666666666",
+                "Load": "SEA",
+                "Longitude": "103.7452275",
+                "OriginCode": "24009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "Operator": "SBST",
+            "ServiceNo": "974"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "15101",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "11379",
+                "EstimatedArrival": "2023-09-03T17:28:16+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.2859415",
+                "Load": "SEA",
+                "Longitude": "103.78032866666666",
+                "OriginCode": "11379",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "11379",
+                "EstimatedArrival": "2023-09-03T17:44:36+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.2789973333333333",
+                "Load": "SEA",
+                "Longitude": "103.78596983333334",
+                "OriginCode": "11379",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "11379",
+                "EstimatedArrival": "2023-09-03T17:56:33+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3064221666666667",
+                "Load": "SEA",
+                "Longitude": "103.790883",
+                "OriginCode": "11379",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "200"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

@@ -1,0 +1,117 @@
+{
+    "BusStopCode": "01541",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "10499",
+                "EstimatedArrival": "2023-09-03T17:30:50+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3009971666666666",
+                "Load": "SEA",
+                "Longitude": "103.90914533333333",
+                "OriginCode": "77009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "10499",
+                "EstimatedArrival": "2023-09-03T17:58:24+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3541913333333333",
+                "Load": "SEA",
+                "Longitude": "103.95549066666666",
+                "OriginCode": "77009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "Operator": "GAS",
+            "ServiceNo": "12e"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "11379",
+                "EstimatedArrival": "2023-09-03T17:25:19+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.2926273333333334",
+                "Load": "SDA",
+                "Longitude": "103.8625905",
+                "OriginCode": "84431",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "11379",
+                "EstimatedArrival": "2023-09-03T17:42:29+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3061866666666666",
+                "Load": "SEA",
+                "Longitude": "103.9130235",
+                "OriginCode": "84431",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "11379",
+                "EstimatedArrival": "2023-09-03T17:51:06+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3135835",
+                "Load": "SEA",
+                "Longitude": "103.933859",
+                "OriginCode": "84431",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "48"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "53009",
+                "EstimatedArrival": "2023-09-03T17:40:30+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.273134",
+                "Load": "SEA",
+                "Longitude": "103.84423016666666",
+                "OriginCode": "10009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "53009",
+                "EstimatedArrival": "2023-09-03T17:54:26+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.2726828333333333",
+                "Load": "SEA",
+                "Longitude": "103.803987",
+                "OriginCode": "10009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "Operator": "SBST",
+            "ServiceNo": "57"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

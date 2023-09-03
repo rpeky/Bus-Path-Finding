@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "98111",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "99009",
+                "EstimatedArrival": "2023-09-03T17:39:29+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3722793333333334",
+                "Load": "SDA",
+                "Longitude": "103.9469865",
+                "OriginCode": "66009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "99009",
+                "EstimatedArrival": "2023-09-03T17:51:35+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3864508333333334",
+                "Load": "SDA",
+                "Longitude": "103.91395416666667",
+                "OriginCode": "66009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "99009",
+                "EstimatedArrival": "2023-09-03T18:06:23+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3878731666666666",
+                "Load": "SEA",
+                "Longitude": "103.891665",
+                "OriginCode": "66009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "109"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "17339",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "10009",
+                "EstimatedArrival": "2023-09-03T17:27:09+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.317913",
+                "Load": "SEA",
+                "Longitude": "103.74917416666666",
+                "OriginCode": "45009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "10009",
+                "EstimatedArrival": "2023-09-03T17:40:25+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3394773333333334",
+                "Load": "SEA",
+                "Longitude": "103.74231733333333",
+                "OriginCode": "45009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "10009",
+                "EstimatedArrival": "2023-09-03T17:52:13+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3497061666666665",
+                "Load": "SEA",
+                "Longitude": "103.75284266666667",
+                "OriginCode": "45009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SMRT",
+            "ServiceNo": "176"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

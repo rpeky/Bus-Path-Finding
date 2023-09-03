@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "43452",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "22009",
+                "EstimatedArrival": "2023-09-03T17:33:20+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.347249",
+                "Load": "SEA",
+                "Longitude": "103.756403",
+                "OriginCode": "10499",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "22009",
+                "EstimatedArrival": "2023-09-03T17:47:31+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.336934",
+                "Load": "SEA",
+                "Longitude": "103.78026383333334",
+                "OriginCode": "10499",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "22009",
+                "EstimatedArrival": "2023-09-03T18:07:22+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3063803333333333",
+                "Load": "SDA",
+                "Longitude": "103.81421833333333",
+                "OriginCode": "10499",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "174"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

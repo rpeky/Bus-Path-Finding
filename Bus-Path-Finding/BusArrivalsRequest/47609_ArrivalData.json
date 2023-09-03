@@ -1,0 +1,117 @@
+{
+    "BusStopCode": "47609",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:34:14+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4455856666666667",
+                "Load": "SEA",
+                "Longitude": "103.81998233333333",
+                "OriginCode": "46009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:45:33+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4613118333333333",
+                "Load": "SEA",
+                "Longitude": "103.81306866666667",
+                "OriginCode": "46009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T18:04:17+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4452458333333333",
+                "Load": "SEA",
+                "Longitude": "103.80774",
+                "OriginCode": "46009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SMRT",
+            "ServiceNo": "962"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "47009",
+                "EstimatedArrival": "2023-09-03T17:37:06+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4341571666666666",
+                "Load": "SDA",
+                "Longitude": "103.834613",
+                "OriginCode": "47009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "47009",
+                "EstimatedArrival": "2023-09-03T17:49:34+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4066475",
+                "Load": "SEA",
+                "Longitude": "103.82794183333333",
+                "OriginCode": "47009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "47009",
+                "EstimatedArrival": "2023-09-03T18:05:13+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3904606666666668",
+                "Load": "SEA",
+                "Longitude": "103.89743966666667",
+                "OriginCode": "47009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "TTS",
+            "ServiceNo": "965"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:27:28+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4448273333333335",
+                "Load": "SEA",
+                "Longitude": "103.809933",
+                "OriginCode": "75009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:38:51+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4304136666666667",
+                "Load": "SEA",
+                "Longitude": "103.83255416666667",
+                "OriginCode": "75009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:49:10+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4153795",
+                "Load": "SEA",
+                "Longitude": "103.832223",
+                "OriginCode": "75009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "Operator": "TTS",
+            "ServiceNo": "969"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

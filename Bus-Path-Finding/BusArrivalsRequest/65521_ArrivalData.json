@@ -1,0 +1,117 @@
+{
+    "BusStopCode": "65521",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "65009",
+                "EstimatedArrival": "2023-09-03T17:41:38+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3930228333333332",
+                "Load": "SEA",
+                "Longitude": "103.88714166666666",
+                "OriginCode": "53009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "65009",
+                "EstimatedArrival": "2023-09-03T17:50:42+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.391248",
+                "Load": "SEA",
+                "Longitude": "103.870453",
+                "OriginCode": "53009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "Operator": "SBST",
+            "ServiceNo": "50"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "65009",
+                "EstimatedArrival": "2023-09-03T17:42:08+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3694456666666666",
+                "Load": "SEA",
+                "Longitude": "103.887937",
+                "OriginCode": "65009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "65009",
+                "EstimatedArrival": "2023-09-03T17:56:50+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3510585",
+                "Load": "SEA",
+                "Longitude": "103.882374",
+                "OriginCode": "65009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "Operator": "GAS",
+            "ServiceNo": "62"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "65009",
+                "EstimatedArrival": "2023-09-03T17:33:59+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3874206666666666",
+                "Load": "SEA",
+                "Longitude": "103.89868883333334",
+                "OriginCode": "59009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "65009",
+                "EstimatedArrival": "2023-09-03T17:49:45+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4015686666666667",
+                "Load": "SEA",
+                "Longitude": "103.871943",
+                "OriginCode": "59009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "65009",
+                "EstimatedArrival": "2023-09-03T18:04:01+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4248351666666668",
+                "Load": "SEA",
+                "Longitude": "103.83530766666667",
+                "OriginCode": "59009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "Operator": "GAS",
+            "ServiceNo": "85"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "65081",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "65009",
+                "EstimatedArrival": "2023-09-03T17:29:13+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3953931666666666",
+                "Load": "SDA",
+                "Longitude": "103.90526416666667",
+                "OriginCode": "65009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "65009",
+                "EstimatedArrival": "2023-09-03T17:48:21+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3531206666666666",
+                "Load": "SDA",
+                "Longitude": "103.94134066666666",
+                "OriginCode": "65009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "65009",
+                "EstimatedArrival": "2023-09-03T17:53:30+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3479385",
+                "Load": "SEA",
+                "Longitude": "103.94559416666667",
+                "OriginCode": "65009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "GAS",
+            "ServiceNo": "34"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

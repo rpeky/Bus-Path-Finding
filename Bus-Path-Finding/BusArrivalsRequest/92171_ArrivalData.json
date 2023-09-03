@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "92171",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "10009",
+                "EstimatedArrival": "2023-09-03T17:27:35+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3055005",
+                "Load": "SEA",
+                "Longitude": "103.90529033333334",
+                "OriginCode": "84009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "10009",
+                "EstimatedArrival": "2023-09-03T17:37:18+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3060093333333334",
+                "Load": "SEA",
+                "Longitude": "103.91693816666667",
+                "OriginCode": "84009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "10009",
+                "EstimatedArrival": "2023-09-03T17:50:03+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3236051666666666",
+                "Load": "SEA",
+                "Longitude": "103.9273825",
+                "OriginCode": "84009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "16"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

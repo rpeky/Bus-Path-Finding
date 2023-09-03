@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "61119",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "64009",
+                "EstimatedArrival": "2023-09-03T17:34:18+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3216776666666668",
+                "Load": "SDA",
+                "Longitude": "103.86587966666667",
+                "OriginCode": "64009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "64009",
+                "EstimatedArrival": "2023-09-03T17:46:16+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3071346666666668",
+                "Load": "SEA",
+                "Longitude": "103.86238883333333",
+                "OriginCode": "64009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "64009",
+                "EstimatedArrival": "2023-09-03T17:59:47+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.2942095",
+                "Load": "SEA",
+                "Longitude": "103.85496833333333",
+                "OriginCode": "64009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "107M"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

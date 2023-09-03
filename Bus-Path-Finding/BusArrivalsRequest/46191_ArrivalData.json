@@ -1,0 +1,117 @@
+{
+    "BusStopCode": "46191",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:25:17+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.440115",
+                "Load": "SDA",
+                "Longitude": "103.77865633333333",
+                "OriginCode": "22009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:34:10+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.43578",
+                "Load": "SEA",
+                "Longitude": "103.7721485",
+                "OriginCode": "22009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:52:53+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3779308333333333",
+                "Load": "SEA",
+                "Longitude": "103.76185766666667",
+                "OriginCode": "22009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SMRT",
+            "ServiceNo": "178"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:29:40+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4361743333333332",
+                "Load": "SEA",
+                "Longitude": "103.772251",
+                "OriginCode": "46009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:36:16+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4341786666666667",
+                "Load": "SEA",
+                "Longitude": "103.77255616666666",
+                "OriginCode": "46009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:40:15+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4400318333333333",
+                "Load": "SEA",
+                "Longitude": "103.778662",
+                "OriginCode": "46009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SMRT",
+            "ServiceNo": "913"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:41:18+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4348491666666667",
+                "Load": "SEA",
+                "Longitude": "103.77756083333334",
+                "OriginCode": "46008",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:58:53+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4405056666666667",
+                "Load": "SEA",
+                "Longitude": "103.77937983333334",
+                "OriginCode": "46008",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "Operator": "SMRT",
+            "ServiceNo": "913M"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

@@ -1,4 +1,4 @@
-import http
+import httplib2 as http
 import json
 import os
 from urllib.parse import urlparse
@@ -50,7 +50,7 @@ def BusServicesData(skip):
 
     jsonObj = json.loads(content)
 
-    filetoadd = timesskip+"_ServicesData.json"
+    filetoadd = str(skip)+"_ServicesData.json"
     cwd = os.getcwd()
     newdir = os.path.join(cwd, 'BusServicesRequest')
     full_path = os.path.join(newdir, filetoadd)
@@ -76,7 +76,7 @@ def BusRoutesData(skip):
 
     jsonObj = json.loads(content)
 
-    filetoadd = timesskip+"_RoutesData.json"
+    filetoadd = str(skip)+"_RoutesData.json"
     cwd = os.getcwd()
     newdir = os.path.join(cwd, 'BusRoutesRequest')
     full_path = os.path.join(newdir, filetoadd)
@@ -102,7 +102,7 @@ def BusStopsData(skip):
 
     jsonObj = json.loads(content)
 
-    filetoadd = timesskip+"_StopsData.json"
+    filetoadd = str(skip)+"_StopsData.json"
     cwd = os.getcwd()
     newdir = os.path.join(cwd, 'BusStopsRequest')
     full_path = os.path.join(newdir, filetoadd)
@@ -110,3 +110,94 @@ def BusStopsData(skip):
         json.dump(jsonObj, outfile, sort_keys=True, indent=4, ensure_ascii=False)
     return
 
+def generate_busstopdict():
+    
+    pass
+
+# loading locations
+# file_loc      filesuffix                      folderlocation
+#    0          NA                              NA
+#    1          _ArrivalData.json               BusArrivalsRequest
+#    2          _ServicesData.json              BusServicesRequest
+#    3          _RoutesData.json                BusRoutesRequest
+#    4          _StopsData.json                 BusStopsRequest
+
+def open_load_json(file_idx, file_loc):
+    
+    filesuffix = [
+        'error: convenience index',
+        '_ArrivalData.json',
+        '_ServicesData.json',
+        '_RoutesData.json',
+        '_StopsData.json'        
+        ]    
+    
+    folderlocation = [
+        'error: convenience index',
+        'BusArrivalsRequest',
+        'BusServicesRequest',
+        'BusRoutesRequest',
+        'BusStopsRequest'
+        ]
+
+    filename = str(file_idx)+str(filesuffix[int(file_loc)])
+    cwd = os.getcwd()
+    newdir = os.path.join(cwd, folderlocation[int(file_loc)])
+    full_path = os.path.join(newdir, filename)
+    f = open(full_path)
+    jsob = json.load(f)
+    return jsob
+
+def BuildBusData():
+    
+    for i in range(2):
+        BusServicesData(i)
+    
+    for i in range(51):
+        BusRoutesData(i)
+
+    for i in range(11):
+        BusStopsData(i)
+        
+# consolidate data into one big dictionary, output to json for easier reference in future
+
+#bsc list should contain a tuple containing the bus stop code and which stopsdata page the stop is in (for future reference if needed)
+    bsclist=[]
+    for i in range(11):
+        stopdatapage = open_load_json(i,4)
+        for bsc in stopdatapage['value']:
+            bsclist.append((bsc['BusStopCode'],i))
+            
+    bsnlist=[]
+    for i in range(2):
+        servicesdata = open_load_json(i,2)
+        for bsn in servicesdata['value']:
+            bsnlist.append((bsn['ServiceNo'],i))
+            
+    for bsc in bsclist:
+        BusArrivalData(bsc[0])
+        
+
+            
+    return
+
+def benchtest():
+    bsclist=[]
+    for i in range(11):
+        stopdatapage = open_load_json(i,4)
+        for bsc in stopdatapage['value']:
+            bsclist.append((bsc['BusStopCode'],i,bsc['Description']))
+            
+    bsnlist=[]
+    for i in range(2):
+        servicesdata = open_load_json(i,2)
+        for bsn in servicesdata['value']:
+            bsnlist.append((bsn['ServiceNo'],i))
+    
+    print(bsclist)
+    print(len(bsclist))
+    print(bsnlist)
+    print(len(bsnlist))
+    
+    
+    return

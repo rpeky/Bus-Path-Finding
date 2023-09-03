@@ -1,0 +1,117 @@
+{
+    "BusStopCode": "53339",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "55509",
+                "EstimatedArrival": "2023-09-03T17:31:50+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3589026666666666",
+                "Load": "SEA",
+                "Longitude": "103.82873166666667",
+                "OriginCode": "55509",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "55509",
+                "EstimatedArrival": "2023-09-03T17:45:31+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3256665",
+                "Load": "SDA",
+                "Longitude": "103.84186016666666",
+                "OriginCode": "55509",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "55509",
+                "EstimatedArrival": "2023-09-03T18:06:44+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.299714",
+                "Load": "SEA",
+                "Longitude": "103.841657",
+                "OriginCode": "55509",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "162M"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "53009",
+                "EstimatedArrival": "2023-09-03T17:26:38+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3634108333333332",
+                "Load": "SEA",
+                "Longitude": "103.83299883333333",
+                "OriginCode": "53009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "53009",
+                "EstimatedArrival": "2023-09-03T17:38:31+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3514713333333335",
+                "Load": "SEA",
+                "Longitude": "103.83852116666667",
+                "OriginCode": "53009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "53009",
+                "EstimatedArrival": "2023-09-03T17:47:58+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3460713333333334",
+                "Load": "SEA",
+                "Longitude": "103.85424183333333",
+                "OriginCode": "53009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "410G"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "53009",
+                "EstimatedArrival": "2023-09-03T17:37:20+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3457208333333333",
+                "Load": "SEA",
+                "Longitude": "103.83833783333333",
+                "OriginCode": "28009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "53009",
+                "EstimatedArrival": "2023-09-03T18:05:04+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3131243333333333",
+                "Load": "SDA",
+                "Longitude": "103.76650416666666",
+                "OriginCode": "28009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "Operator": "SBST",
+            "ServiceNo": "52"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "90051",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "66009",
+                "EstimatedArrival": "2023-09-03T17:27:01+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.2977545",
+                "Load": "SEA",
+                "Longitude": "103.879925",
+                "OriginCode": "66009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "66009",
+                "EstimatedArrival": "2023-09-03T17:42:49+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.305112",
+                "Load": "SEA",
+                "Longitude": "103.8834785",
+                "OriginCode": "66009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "66009",
+                "EstimatedArrival": "2023-09-03T17:57:04+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3233063333333333",
+                "Load": "SEA",
+                "Longitude": "103.88141016666667",
+                "OriginCode": "66009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "158"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

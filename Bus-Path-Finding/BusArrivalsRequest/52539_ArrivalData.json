@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "52539",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "52009",
+                "EstimatedArrival": "2023-09-03T17:25:55+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3424976666666666",
+                "Load": "SEA",
+                "Longitude": "103.85382916666667",
+                "OriginCode": "52009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "52009",
+                "EstimatedArrival": "2023-09-03T17:32:56+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3342238333333334",
+                "Load": "SDA",
+                "Longitude": "103.85788183333334",
+                "OriginCode": "52009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "52009",
+                "EstimatedArrival": "2023-09-03T17:37:35+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3314300000000001",
+                "Load": "SDA",
+                "Longitude": "103.85230033333333",
+                "OriginCode": "52009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "238"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

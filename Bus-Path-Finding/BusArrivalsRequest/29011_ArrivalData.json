@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "29011",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "28211",
+                "EstimatedArrival": "2023-09-03T17:38:53+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3109648333333332",
+                "Load": "SEA",
+                "Longitude": "103.7581685",
+                "OriginCode": "28301",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "28211",
+                "EstimatedArrival": "2023-09-03T17:51:08+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.315279",
+                "Load": "SEA",
+                "Longitude": "103.7649795",
+                "OriginCode": "28301",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "Operator": "TTS",
+            "ServiceNo": "78"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

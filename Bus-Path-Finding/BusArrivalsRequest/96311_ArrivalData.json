@@ -1,0 +1,80 @@
+{
+    "BusStopCode": "96311",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "97009",
+                "EstimatedArrival": "2023-09-03T17:34:43+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3450588333333333",
+                "Load": "SEA",
+                "Longitude": "103.94072733333333",
+                "OriginCode": "65009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "97009",
+                "EstimatedArrival": "2023-09-03T17:49:29+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3677861666666666",
+                "Load": "SEA",
+                "Longitude": "103.93105016666667",
+                "OriginCode": "65009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "97009",
+                "EstimatedArrival": "2023-09-03T18:03:11+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4043828333333332",
+                "Load": "SEA",
+                "Longitude": "103.89714883333333",
+                "OriginCode": "65009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "Operator": "GAS",
+            "ServiceNo": "118"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "97009",
+                "EstimatedArrival": "2023-09-03T17:31:06+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3291193333333333",
+                "Load": "SEA",
+                "Longitude": "103.95045766666667",
+                "OriginCode": "97009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "97009",
+                "EstimatedArrival": "2023-09-03T17:45:57+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3091016666666666",
+                "Load": "SEA",
+                "Longitude": "103.925925",
+                "OriginCode": "97009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "97009",
+                "EstimatedArrival": "2023-09-03T17:56:36+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3043453333333332",
+                "Load": "SEA",
+                "Longitude": "103.90247533333333",
+                "OriginCode": "97009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "47"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

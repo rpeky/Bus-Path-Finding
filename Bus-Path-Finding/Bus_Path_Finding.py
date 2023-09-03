@@ -1,5 +1,6 @@
 import os
 import time
+import JsonProcessingFunctions
 
 def makeneededfiles():
     folderstocheck = ['BusArrivalsRequest', 'BusServicesRequest', 'BusRoutesRequest', 'BusStopsRequest']
@@ -10,8 +11,14 @@ def makeneededfiles():
             os.mkdir(folder)
     return
 
-def main():
+def firstrungendata():
     makeneededfiles()
+    JsonProcessingFunctions.BuildBusData()
+    
+
+def main():
+    
+    JsonProcessingFunctions.benchtest()
     return
 
 

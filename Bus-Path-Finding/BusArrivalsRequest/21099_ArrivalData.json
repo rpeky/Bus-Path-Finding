@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "21099",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "28009",
+                "EstimatedArrival": "2023-09-03T17:27:01+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3143943333333334",
+                "Load": "SEA",
+                "Longitude": "103.71861483333333",
+                "OriginCode": "28009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "28009",
+                "EstimatedArrival": "2023-09-03T17:43:21+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3380886666666667",
+                "Load": "SDA",
+                "Longitude": "103.72081850000001",
+                "OriginCode": "28009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "28009",
+                "EstimatedArrival": "2023-09-03T17:52:14+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3496055",
+                "Load": "SEA",
+                "Longitude": "103.71963983333333",
+                "OriginCode": "28009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "Operator": "TTS",
+            "ServiceNo": "98"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

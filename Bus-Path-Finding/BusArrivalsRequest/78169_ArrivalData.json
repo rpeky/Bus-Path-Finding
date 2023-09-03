@@ -1,0 +1,80 @@
+{
+    "BusStopCode": "78169",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "77009",
+                "EstimatedArrival": "2023-09-03T17:35:07+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.357468",
+                "Load": "SEA",
+                "Longitude": "103.9583125",
+                "OriginCode": "84009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "77009",
+                "EstimatedArrival": "2023-09-03T17:49:26+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.334147",
+                "Load": "SEA",
+                "Longitude": "103.95082083333334",
+                "OriginCode": "84591",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "77009",
+                "EstimatedArrival": "2023-09-03T17:51:54+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3377603333333332",
+                "Load": "SEA",
+                "Longitude": "103.947013",
+                "OriginCode": "84009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "Operator": "GAS",
+            "ServiceNo": "17"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "77009",
+                "EstimatedArrival": "2023-09-03T17:30:01+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3735068333333333",
+                "Load": "SEA",
+                "Longitude": "103.95630616666666",
+                "OriginCode": "77009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "77009",
+                "EstimatedArrival": "2023-09-03T17:46:50+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3790196666666668",
+                "Load": "SEA",
+                "Longitude": "103.94267783333333",
+                "OriginCode": "77009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "77009",
+                "EstimatedArrival": "2023-09-03T17:57:45+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.376473",
+                "Load": "SEA",
+                "Longitude": "103.94625683333334",
+                "OriginCode": "77009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "GAS",
+            "ServiceNo": "358"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

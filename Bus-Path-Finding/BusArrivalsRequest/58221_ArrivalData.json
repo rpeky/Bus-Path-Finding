@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "58221",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:29:43+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.446856",
+                "Load": "SDA",
+                "Longitude": "103.82279983333333",
+                "OriginCode": "46009",
+                "Type": "BD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:39:43+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4303241666666666",
+                "Load": "SDA",
+                "Longitude": "103.83008583333333",
+                "OriginCode": "46009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-03T17:48:37+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4229878333333335",
+                "Load": "SEA",
+                "Longitude": "103.835955",
+                "OriginCode": "46009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "TTS",
+            "ServiceNo": "858"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

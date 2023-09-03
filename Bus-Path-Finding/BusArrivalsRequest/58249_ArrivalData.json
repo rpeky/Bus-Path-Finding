@@ -1,0 +1,43 @@
+{
+    "BusStopCode": "58249",
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "58009",
+                "EstimatedArrival": "2023-09-03T17:27:27+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.443461",
+                "Load": "SDA",
+                "Longitude": "103.823726",
+                "OriginCode": "58009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "58009",
+                "EstimatedArrival": "2023-09-03T17:34:15+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4302243333333333",
+                "Load": "SEA",
+                "Longitude": "103.82836483333334",
+                "OriginCode": "58009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "58009",
+                "EstimatedArrival": "2023-09-03T17:47:23+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4306438333333333",
+                "Load": "SEA",
+                "Longitude": "103.832362",
+                "OriginCode": "58009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "TTS",
+            "ServiceNo": "859"
+        }
+    ],
+    "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
+}

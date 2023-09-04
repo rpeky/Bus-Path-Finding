@@ -4,18 +4,18 @@
         {
             "NextBus": {
                 "DestinationCode": "10499",
-                "EstimatedArrival": "2023-09-03T17:33:07+08:00",
+                "EstimatedArrival": "2023-09-04T19:06:28+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.2864411666666666",
+                "Latitude": "1.2884929999999999",
                 "Load": "SEA",
-                "Longitude": "103.8245425",
+                "Longitude": "103.82093766666667",
                 "OriginCode": "10499",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus2": {
                 "DestinationCode": "10499",
-                "EstimatedArrival": "2023-09-03T17:41:25+08:00",
+                "EstimatedArrival": "2023-09-04T19:17:53+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -26,7 +26,7 @@
             },
             "NextBus3": {
                 "DestinationCode": "10499",
-                "EstimatedArrival": "2023-09-03T17:56:25+08:00",
+                "EstimatedArrival": "2023-09-04T19:32:53+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -41,33 +41,33 @@
         {
             "NextBus": {
                 "DestinationCode": "02099",
-                "EstimatedArrival": "2023-09-03T17:34:24+08:00",
+                "EstimatedArrival": "2023-09-04T19:01:03+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.3055831666666666",
+                "Latitude": "1.2951901666666668",
                 "Load": "SEA",
-                "Longitude": "103.80158183333333",
+                "Longitude": "103.80594433333333",
                 "OriginCode": "02099",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus2": {
                 "DestinationCode": "02099",
-                "EstimatedArrival": "2023-09-03T17:34:25+08:00",
+                "EstimatedArrival": "2023-09-04T19:18:01+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.3060315",
+                "Latitude": "1.2909135",
                 "Load": "SEA",
-                "Longitude": "103.80035983333333",
+                "Longitude": "103.80742766666667",
                 "OriginCode": "02099",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus3": {
                 "DestinationCode": "02099",
-                "EstimatedArrival": "2023-09-03T17:52:38+08:00",
+                "EstimatedArrival": "2023-09-04T19:21:53+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.279309",
+                "Latitude": "1.2835893333333335",
                 "Load": "SEA",
-                "Longitude": "103.81693833333334",
+                "Longitude": "103.80115383333333",
                 "OriginCode": "02099",
                 "Type": "SD",
                 "VisitNumber": "1"
@@ -77,26 +77,26 @@
         },
         {
             "NextBus": {
-                "DestinationCode": "16009",
-                "EstimatedArrival": "2023-09-03T17:29:03+08:00",
+                "DestinationCode": "10169",
+                "EstimatedArrival": "2023-09-04T19:10:48+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.288696",
-                "Load": "SDA",
-                "Longitude": "103.81815266666666",
-                "OriginCode": "84009",
+                "Latitude": "1.302872",
+                "Load": "SEA",
+                "Longitude": "103.8012975",
+                "OriginCode": "10141",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus2": {
-                "DestinationCode": "16009",
-                "EstimatedArrival": "2023-09-03T17:46:07+08:00",
-                "Feature": "WAB",
-                "Latitude": "1.2832523333333334",
-                "Load": "SDA",
-                "Longitude": "103.8427465",
-                "OriginCode": "84009",
-                "Type": "SD",
-                "VisitNumber": "1"
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
             },
             "NextBus3": {
                 "DestinationCode": "",
@@ -108,6 +108,43 @@
                 "OriginCode": "",
                 "Type": "",
                 "VisitNumber": ""
+            },
+            "Operator": "SBST",
+            "ServiceNo": "195A"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "16009",
+                "EstimatedArrival": "2023-09-04T19:06:11+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.2885456666666668",
+                "Load": "SDA",
+                "Longitude": "103.82080083333334",
+                "OriginCode": "84009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "16009",
+                "EstimatedArrival": "2023-09-04T19:17:45+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.280198",
+                "Load": "SDA",
+                "Longitude": "103.8400965",
+                "OriginCode": "84009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "16009",
+                "EstimatedArrival": "2023-09-04T19:27:34+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.2903578333333332",
+                "Load": "SEA",
+                "Longitude": "103.84865916666666",
+                "OriginCode": "84009",
+                "Type": "SD",
+                "VisitNumber": "1"
             },
             "Operator": "SBST",
             "ServiceNo": "33"

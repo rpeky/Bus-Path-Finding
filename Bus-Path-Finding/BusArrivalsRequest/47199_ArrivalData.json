@@ -1,5 +1,43 @@
 {
     "BusStopCode": "47199",
-    "Services": [],
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "58009",
+                "EstimatedArrival": "2023-09-04T18:58:21+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4590161666666668",
+                "Load": "SEA",
+                "Longitude": "103.80137833333333",
+                "OriginCode": "47121",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "58009",
+                "EstimatedArrival": "2023-09-04T19:07:48+08:00",
+                "Feature": "WAB",
+                "Latitude": "0.0",
+                "Load": "SEA",
+                "Longitude": "0.0",
+                "OriginCode": "47121",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "58009",
+                "EstimatedArrival": "2023-09-04T19:17:48+08:00",
+                "Feature": "WAB",
+                "Latitude": "0.0",
+                "Load": "SEA",
+                "Longitude": "0.0",
+                "OriginCode": "47121",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "TTS",
+            "ServiceNo": "981"
+        }
+    ],
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
 }

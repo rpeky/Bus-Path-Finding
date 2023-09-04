@@ -4,18 +4,18 @@
         {
             "NextBus": {
                 "DestinationCode": "43009",
-                "EstimatedArrival": "2023-09-03T17:37:44+08:00",
+                "EstimatedArrival": "2023-09-04T19:08:26+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.3466128333333334",
+                "Latitude": "1.3474948333333332",
                 "Load": "SEA",
-                "Longitude": "103.75164566666666",
+                "Longitude": "103.75618533333333",
                 "OriginCode": "43009",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus2": {
                 "DestinationCode": "43009",
-                "EstimatedArrival": "2023-09-03T17:49:17+08:00",
+                "EstimatedArrival": "2023-09-04T19:21:01+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -26,7 +26,7 @@
             },
             "NextBus3": {
                 "DestinationCode": "43009",
-                "EstimatedArrival": "2023-09-03T18:04:17+08:00",
+                "EstimatedArrival": "2023-09-04T19:36:01+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -40,30 +40,67 @@
         },
         {
             "NextBus": {
-                "DestinationCode": "45009",
-                "EstimatedArrival": "2023-09-03T17:31:45+08:00",
+                "DestinationCode": "43268",
+                "EstimatedArrival": "2023-09-04T19:03:00+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.3649898333333335",
+                "Latitude": "1.3512486666666668",
                 "Load": "SEA",
-                "Longitude": "103.775528",
+                "Longitude": "103.7553545",
+                "OriginCode": "03539",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "43268",
+                "EstimatedArrival": "2023-09-04T19:18:13+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3276373333333333",
+                "Load": "SEA",
+                "Longitude": "103.76406366666667",
+                "OriginCode": "03539",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "Operator": "TTS",
+            "ServiceNo": "653"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "45009",
+                "EstimatedArrival": "2023-09-04T19:06:06+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3662303333333332",
+                "Load": "SEA",
+                "Longitude": "103.77556266666667",
                 "OriginCode": "45009",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus2": {
                 "DestinationCode": "45009",
-                "EstimatedArrival": "2023-09-03T17:42:57+08:00",
+                "EstimatedArrival": "2023-09-04T19:14:11+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.3803793333333334",
+                "Latitude": "1.379027",
                 "Load": "SEA",
-                "Longitude": "103.76368083333334",
+                "Longitude": "103.769469",
                 "OriginCode": "45009",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus3": {
                 "DestinationCode": "45009",
-                "EstimatedArrival": "2023-09-03T17:50:36+08:00",
+                "EstimatedArrival": "2023-09-04T19:21:05+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",

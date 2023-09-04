@@ -4,18 +4,18 @@
         {
             "NextBus": {
                 "DestinationCode": "54009",
-                "EstimatedArrival": "2023-09-03T17:32:45+08:00",
+                "EstimatedArrival": "2023-09-04T19:05:32+08:00",
                 "Feature": "WAB",
-                "Latitude": "0.0",
+                "Latitude": "1.440893",
                 "Load": "SEA",
-                "Longitude": "0.0",
+                "Longitude": "103.78532683333333",
                 "OriginCode": "46009",
                 "Type": "DD",
                 "VisitNumber": "1"
             },
             "NextBus2": {
                 "DestinationCode": "54009",
-                "EstimatedArrival": "2023-09-03T17:43:44+08:00",
+                "EstimatedArrival": "2023-09-04T19:07:39+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -26,7 +26,7 @@
             },
             "NextBus3": {
                 "DestinationCode": "54009",
-                "EstimatedArrival": "2023-09-03T17:55:44+08:00",
+                "EstimatedArrival": "2023-09-04T19:17:35+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -41,18 +41,18 @@
         {
             "NextBus": {
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2023-09-03T17:26:49+08:00",
+                "EstimatedArrival": "2023-09-04T19:05:10+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.4457108333333333",
-                "Load": "SEA",
-                "Longitude": "103.79250916666666",
+                "Latitude": "1.4392476666666667",
+                "Load": "SDA",
+                "Longitude": "103.79316183333333",
                 "OriginCode": "46009",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus2": {
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2023-09-03T17:33:16+08:00",
+                "EstimatedArrival": "2023-09-04T19:11:51+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -63,7 +63,7 @@
             },
             "NextBus3": {
                 "DestinationCode": "46009",
-                "EstimatedArrival": "2023-09-03T17:40:15+08:00",
+                "EstimatedArrival": "2023-09-04T19:19:51+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -74,6 +74,43 @@
             },
             "Operator": "TTS",
             "ServiceNo": "858"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-04T18:58:57+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4475886666666666",
+                "Load": "SEA",
+                "Longitude": "103.79698266666666",
+                "OriginCode": "46009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-04T19:02:58+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4454955",
+                "Load": "SEA",
+                "Longitude": "103.80004066666666",
+                "OriginCode": "46009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "46009",
+                "EstimatedArrival": "2023-09-04T19:04:38+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.44222",
+                "Load": "SEA",
+                "Longitude": "103.8015425",
+                "OriginCode": "46009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SMRT",
+            "ServiceNo": "964"
         }
     ],
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"

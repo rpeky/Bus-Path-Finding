@@ -3,8 +3,8 @@
     "Services": [
         {
             "NextBus": {
-                "DestinationCode": "65009",
-                "EstimatedArrival": "2023-09-03T17:31:36+08:00",
+                "DestinationCode": "65531",
+                "EstimatedArrival": "2023-09-04T19:23:35+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -14,8 +14,45 @@
                 "VisitNumber": "1"
             },
             "NextBus2": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "NextBus3": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "Operator": "GAS",
+            "ServiceNo": "382A"
+        },
+        {
+            "NextBus": {
                 "DestinationCode": "65009",
-                "EstimatedArrival": "2023-09-03T17:40:55+08:00",
+                "EstimatedArrival": "2023-09-04T19:08:42+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4033236666666666",
+                "Load": "SEA",
+                "Longitude": "103.90277983333333",
+                "OriginCode": "65009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "65009",
+                "EstimatedArrival": "2023-09-04T19:11:44+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -26,7 +63,7 @@
             },
             "NextBus3": {
                 "DestinationCode": "65009",
-                "EstimatedArrival": "2023-09-03T17:50:55+08:00",
+                "EstimatedArrival": "2023-09-04T19:19:44+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",

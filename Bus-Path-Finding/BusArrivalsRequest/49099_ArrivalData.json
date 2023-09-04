@@ -4,39 +4,39 @@
         {
             "NextBus": {
                 "DestinationCode": "47009",
-                "EstimatedArrival": "2023-09-03T17:32:54+08:00",
+                "EstimatedArrival": "2023-09-04T19:02:12+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.4385946666666667",
+                "Latitude": "1.4368801666666666",
                 "Load": "SEA",
-                "Longitude": "103.73730316666666",
-                "OriginCode": "47009",
+                "Longitude": "103.75411166666666",
+                "OriginCode": "44009",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus2": {
                 "DestinationCode": "47009",
-                "EstimatedArrival": "2023-09-03T17:50:02+08:00",
+                "EstimatedArrival": "2023-09-04T19:11:52+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.4235031666666667",
-                "Load": "SDA",
-                "Longitude": "103.75736366666666",
-                "OriginCode": "47009",
-                "Type": "DD",
+                "Latitude": "1.4287458333333334",
+                "Load": "SEA",
+                "Longitude": "103.74723533333334",
+                "OriginCode": "44009",
+                "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus3": {
                 "DestinationCode": "47009",
-                "EstimatedArrival": "2023-09-03T17:58:55+08:00",
+                "EstimatedArrival": "2023-09-04T19:19:03+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.4321359999999999",
+                "Latitude": "1.4107356666666666",
                 "Load": "SEA",
-                "Longitude": "103.77816383333334",
-                "OriginCode": "47009",
+                "Longitude": "103.75228816666667",
+                "OriginCode": "44009",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
             "Operator": "SMRT",
-            "ServiceNo": "925M"
+            "ServiceNo": "925"
         }
     ],
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"

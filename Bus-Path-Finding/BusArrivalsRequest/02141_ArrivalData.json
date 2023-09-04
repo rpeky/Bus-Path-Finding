@@ -1,43 +1,5 @@
 {
     "BusStopCode": "02141",
-    "Services": [
-        {
-            "NextBus": {
-                "DestinationCode": "64009",
-                "EstimatedArrival": "2023-09-03T17:27:50+08:00",
-                "Feature": "WAB",
-                "Latitude": "1.2942475",
-                "Load": "SEA",
-                "Longitude": "103.85499133333333",
-                "OriginCode": "64009",
-                "Type": "DD",
-                "VisitNumber": "1"
-            },
-            "NextBus2": {
-                "DestinationCode": "64009",
-                "EstimatedArrival": "2023-09-03T17:43:24+08:00",
-                "Feature": "WAB",
-                "Latitude": "1.3175156666666668",
-                "Load": "SEA",
-                "Longitude": "103.86619783333333",
-                "OriginCode": "64009",
-                "Type": "DD",
-                "VisitNumber": "1"
-            },
-            "NextBus3": {
-                "DestinationCode": "64009",
-                "EstimatedArrival": "2023-09-03T17:57:05+08:00",
-                "Feature": "WAB",
-                "Latitude": "1.3421046666666667",
-                "Load": "SEA",
-                "Longitude": "103.87095083333334",
-                "OriginCode": "64009",
-                "Type": "DD",
-                "VisitNumber": "1"
-            },
-            "Operator": "SBST",
-            "ServiceNo": "107M"
-        }
-    ],
+    "Services": [],
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
 }

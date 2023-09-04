@@ -18,6 +18,7 @@ def firstrungendata():
     
 
 def main():
+    firstrungendata()
 
     return 
 

@@ -4,18 +4,18 @@
         {
             "NextBus": {
                 "DestinationCode": "58009",
-                "EstimatedArrival": "2023-09-03T17:29:05+08:00",
+                "EstimatedArrival": "2023-09-04T19:04:43+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.4494888333333333",
+                "Latitude": "1.4479251666666666",
                 "Load": "SEA",
-                "Longitude": "103.8197625",
+                "Longitude": "103.81899733333333",
                 "OriginCode": "58009",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus2": {
                 "DestinationCode": "58009",
-                "EstimatedArrival": "2023-09-03T17:31:41+08:00",
+                "EstimatedArrival": "2023-09-04T19:12:12+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -26,7 +26,7 @@
             },
             "NextBus3": {
                 "DestinationCode": "58009",
-                "EstimatedArrival": "2023-09-03T17:50:00+08:00",
+                "EstimatedArrival": "2023-09-04T19:23:12+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -37,6 +37,43 @@
             },
             "Operator": "TTS",
             "ServiceNo": "882"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "58501",
+                "EstimatedArrival": "2023-09-04T19:16:43+08:00",
+                "Feature": "WAB",
+                "Latitude": "0.0",
+                "Load": "SEA",
+                "Longitude": "0.0",
+                "OriginCode": "58009",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "NextBus3": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "Operator": "TTS",
+            "ServiceNo": "882A"
         }
     ],
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"

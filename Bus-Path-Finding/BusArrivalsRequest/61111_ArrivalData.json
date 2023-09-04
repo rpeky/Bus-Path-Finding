@@ -3,30 +3,30 @@
     "Services": [
         {
             "NextBus": {
-                "DestinationCode": "64009",
-                "EstimatedArrival": "2023-09-03T17:27:00+08:00",
+                "DestinationCode": "03239",
+                "EstimatedArrival": "2023-09-04T19:04:18+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.3382828333333334",
+                "Latitude": "1.3448676666666666",
                 "Load": "SEA",
-                "Longitude": "103.87078516666666",
-                "OriginCode": "64009",
-                "Type": "DD",
-                "VisitNumber": "1"
-            },
-            "NextBus2": {
-                "DestinationCode": "64009",
-                "EstimatedArrival": "2023-09-03T17:46:21+08:00",
-                "Feature": "WAB",
-                "Latitude": "1.3676286666666666",
-                "Load": "SEA",
-                "Longitude": "103.88805166666667",
+                "Longitude": "103.87100633333333",
                 "OriginCode": "64009",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
+            "NextBus2": {
+                "DestinationCode": "03239",
+                "EstimatedArrival": "2023-09-04T19:23:14+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3703291666666666",
+                "Load": "SEA",
+                "Longitude": "103.889218",
+                "OriginCode": "64009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
             "NextBus3": {
-                "DestinationCode": "64009",
-                "EstimatedArrival": "2023-09-03T17:54:24+08:00",
+                "DestinationCode": "03239",
+                "EstimatedArrival": "2023-09-04T19:35:24+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -36,7 +36,7 @@
                 "VisitNumber": "1"
             },
             "Operator": "SBST",
-            "ServiceNo": "107M"
+            "ServiceNo": "107"
         }
     ],
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"

@@ -4,35 +4,35 @@
         {
             "NextBus": {
                 "DestinationCode": "59009",
-                "EstimatedArrival": "2023-09-03T17:28:20+08:00",
+                "EstimatedArrival": "2023-09-04T19:01:25+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.4293814999999999",
+                "Latitude": "1.4300333333333333",
                 "Load": "SEA",
-                "Longitude": "103.84939416666667",
-                "OriginCode": "59009",
-                "Type": "BD",
-                "VisitNumber": "1"
-            },
-            "NextBus2": {
-                "DestinationCode": "59009",
-                "EstimatedArrival": "2023-09-03T17:34:55+08:00",
-                "Feature": "WAB",
-                "Latitude": "1.427086",
-                "Load": "SDA",
-                "Longitude": "103.84170416666667",
+                "Longitude": "103.84939766666666",
                 "OriginCode": "59009",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
-            "NextBus3": {
+            "NextBus2": {
                 "DestinationCode": "59009",
-                "EstimatedArrival": "2023-09-03T17:38:03+08:00",
+                "EstimatedArrival": "2023-09-04T19:04:09+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.4303759999999999",
+                "Latitude": "1.42511",
                 "Load": "SEA",
-                "Longitude": "103.83800733333334",
+                "Longitude": "103.84953533333334",
                 "OriginCode": "59009",
                 "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "59009",
+                "EstimatedArrival": "2023-09-04T19:07:36+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.4245118333333333",
+                "Load": "SEA",
+                "Longitude": "103.84486266666667",
+                "OriginCode": "59009",
+                "Type": "BD",
                 "VisitNumber": "1"
             },
             "Operator": "SBST",

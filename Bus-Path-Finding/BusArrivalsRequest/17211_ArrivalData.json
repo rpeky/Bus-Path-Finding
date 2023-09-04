@@ -4,7 +4,7 @@
         {
             "NextBus": {
                 "DestinationCode": "17009",
-                "EstimatedArrival": "2023-09-03T17:27:01+08:00",
+                "EstimatedArrival": "2023-09-04T19:02:01+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -15,7 +15,7 @@
             },
             "NextBus2": {
                 "DestinationCode": "17009",
-                "EstimatedArrival": "2023-09-03T17:33:36+08:00",
+                "EstimatedArrival": "2023-09-04T19:05:35+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -26,7 +26,7 @@
             },
             "NextBus3": {
                 "DestinationCode": "17009",
-                "EstimatedArrival": "2023-09-03T17:40:36+08:00",
+                "EstimatedArrival": "2023-09-04T19:12:35+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -37,6 +37,43 @@
             },
             "Operator": "TTS",
             "ServiceNo": "284"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "17201",
+                "EstimatedArrival": "2023-09-04T18:58:39+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3170074999999999",
+                "Load": "SEA",
+                "Longitude": "103.766058",
+                "OriginCode": "03539",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "17201",
+                "EstimatedArrival": "2023-09-04T19:16:05+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.2854778333333332",
+                "Load": "SEA",
+                "Longitude": "103.7983765",
+                "OriginCode": "03539",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "",
+                "EstimatedArrival": "",
+                "Feature": "",
+                "Latitude": "",
+                "Load": "",
+                "Longitude": "",
+                "OriginCode": "",
+                "Type": "",
+                "VisitNumber": ""
+            },
+            "Operator": "SBST",
+            "ServiceNo": "667"
         }
     ],
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"

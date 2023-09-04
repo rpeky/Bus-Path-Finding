@@ -185,8 +185,11 @@ def BuildBusData():
     with open('bsnlisttostore.json','w') as outfile:
         json.dump(bsnlisttostore, outfile)   
             
-    for bsc in bsclist:
-        BusArrivalData(bsc[0])
+    for bsc in bsclisttostore:
+        BusArrivalData(bsc)
+        
+    for bsn in bsnlisttostore:
+        generate_busserviceroute(bsn)
  
     return
 
@@ -196,8 +199,15 @@ def generate_busserviceroute(busservno):
     serviceroute = {'d1':direc1stops, 
                     'd2':direc2stops}
     #maybe can integrate into build data when generating the routesdata json, test if fn works first tho
-    for data in range(51):
-        pass
+    for _ in range(51):
+        routedata = open_load_json(_,3)
+        for info in routedata['value']:
+            if info['ServiceNo'] == busservno and info['Direction']==1:
+                direc1stops.append((info['BusStopCode'],info['Distance']))
+            elif info['ServiceNo'] == busservno and info['Direction']==2:
+                direc2stops.append((info['BusStopCode'],info['Distance']))
+            else:
+                pass
     
     filetoadd = busservno+"_ServiceRouteInfo.json"
     cwd = os.getcwd()

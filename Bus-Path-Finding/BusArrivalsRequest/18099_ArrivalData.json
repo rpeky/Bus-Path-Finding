@@ -1,5 +1,43 @@
 {
     "BusStopCode": "18099",
-    "Services": [],
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "11379",
+                "EstimatedArrival": "2023-09-04T19:03:55+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.2988495",
+                "Load": "SEA",
+                "Longitude": "103.786828",
+                "OriginCode": "11379",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "11379",
+                "EstimatedArrival": "2023-09-04T19:13:02+08:00",
+                "Feature": "WAB",
+                "Latitude": "0.0",
+                "Load": "SEA",
+                "Longitude": "0.0",
+                "OriginCode": "11379",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "11379",
+                "EstimatedArrival": "2023-09-04T19:21:08+08:00",
+                "Feature": "WAB",
+                "Latitude": "0.0",
+                "Load": "SEA",
+                "Longitude": "0.0",
+                "OriginCode": "11379",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "SBST",
+            "ServiceNo": "91"
+        }
+    ],
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
 }

@@ -4,7 +4,7 @@
         {
             "NextBus": {
                 "DestinationCode": "84299",
-                "EstimatedArrival": "2023-09-03T17:29:41+08:00",
+                "EstimatedArrival": "2023-09-04T19:04:07+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -15,7 +15,7 @@
             },
             "NextBus2": {
                 "DestinationCode": "84299",
-                "EstimatedArrival": "2023-09-03T17:43:16+08:00",
+                "EstimatedArrival": "2023-09-04T19:21:07+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -26,7 +26,7 @@
             },
             "NextBus3": {
                 "DestinationCode": "84299",
-                "EstimatedArrival": "2023-09-03T17:58:16+08:00",
+                "EstimatedArrival": "2023-09-04T19:38:07+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -41,39 +41,76 @@
         {
             "NextBus": {
                 "DestinationCode": "77009",
-                "EstimatedArrival": "2023-09-03T17:35:33+08:00",
+                "EstimatedArrival": "2023-09-04T19:00:29+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.35447",
+                "Latitude": "1.363993",
                 "Load": "SEA",
-                "Longitude": "103.94365866666666",
+                "Longitude": "103.937905",
                 "OriginCode": "77009",
                 "Type": "DD",
                 "VisitNumber": "1"
             },
             "NextBus2": {
                 "DestinationCode": "77009",
-                "EstimatedArrival": "2023-09-03T17:46:47+08:00",
+                "EstimatedArrival": "2023-09-04T19:04:13+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.3664515",
+                "Latitude": "1.3593655",
                 "Load": "SEA",
-                "Longitude": "103.9352585",
+                "Longitude": "103.93925383333334",
                 "OriginCode": "77009",
                 "Type": "DD",
                 "VisitNumber": "1"
             },
             "NextBus3": {
                 "DestinationCode": "77009",
-                "EstimatedArrival": "2023-09-03T17:58:33+08:00",
+                "EstimatedArrival": "2023-09-04T19:19:08+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.373438",
+                "Latitude": "1.3616343333333334",
                 "Load": "SEA",
-                "Longitude": "103.94031483333333",
+                "Longitude": "103.93815683333334",
                 "OriginCode": "77009",
                 "Type": "DD",
                 "VisitNumber": "1"
             },
             "Operator": "GAS",
             "ServiceNo": "68"
+        },
+        {
+            "NextBus": {
+                "DestinationCode": "75461",
+                "EstimatedArrival": "2023-09-04T19:02:04+08:00",
+                "Feature": "WAB",
+                "Latitude": "1.3616628333333334",
+                "Load": "SEA",
+                "Longitude": "103.9379235",
+                "OriginCode": "75009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "75461",
+                "EstimatedArrival": "2023-09-04T19:11:04+08:00",
+                "Feature": "WAB",
+                "Latitude": "0.0",
+                "Load": "SEA",
+                "Longitude": "0.0",
+                "OriginCode": "75009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "75461",
+                "EstimatedArrival": "2023-09-04T19:31:04+08:00",
+                "Feature": "WAB",
+                "Latitude": "0.0",
+                "Load": "SEA",
+                "Longitude": "0.0",
+                "OriginCode": "75009",
+                "Type": "DD",
+                "VisitNumber": "1"
+            },
+            "Operator": "GAS",
+            "ServiceNo": "68B"
         }
     ],
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"

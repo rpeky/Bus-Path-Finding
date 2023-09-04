@@ -1,5 +1,43 @@
 {
     "BusStopCode": "55339",
-    "Services": [],
+    "Services": [
+        {
+            "NextBus": {
+                "DestinationCode": "55509",
+                "EstimatedArrival": "2023-09-04T19:07:33+08:00",
+                "Feature": "",
+                "Latitude": "1.3839491666666666",
+                "Load": "SEA",
+                "Longitude": "103.84443016666667",
+                "OriginCode": "55509",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus2": {
+                "DestinationCode": "55509",
+                "EstimatedArrival": "2023-09-04T19:18:16+08:00",
+                "Feature": "",
+                "Latitude": "0.0",
+                "Load": "SEA",
+                "Longitude": "0.0",
+                "OriginCode": "55509",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "NextBus3": {
+                "DestinationCode": "55509",
+                "EstimatedArrival": "2023-09-04T19:28:16+08:00",
+                "Feature": "WAB",
+                "Latitude": "0.0",
+                "Load": "SEA",
+                "Longitude": "0.0",
+                "OriginCode": "55509",
+                "Type": "SD",
+                "VisitNumber": "1"
+            },
+            "Operator": "TTS",
+            "ServiceNo": "825"
+        }
+    ],
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"
 }

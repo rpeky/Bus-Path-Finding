@@ -3,30 +3,30 @@
     "Services": [
         {
             "NextBus": {
-                "DestinationCode": "47009",
-                "EstimatedArrival": "2023-09-03T17:25:13+08:00",
+                "DestinationCode": "44009",
+                "EstimatedArrival": "2023-09-04T19:12:35+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.4235031666666667",
-                "Load": "SDA",
-                "Longitude": "103.75736366666666",
+                "Latitude": "1.4379946666666665",
+                "Load": "SEA",
+                "Longitude": "103.78522616666666",
                 "OriginCode": "47009",
-                "Type": "DD",
+                "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus2": {
-                "DestinationCode": "47009",
-                "EstimatedArrival": "2023-09-03T17:34:07+08:00",
+                "DestinationCode": "44009",
+                "EstimatedArrival": "2023-09-04T19:22:42+08:00",
                 "Feature": "WAB",
-                "Latitude": "1.4321359999999999",
+                "Latitude": "0.0",
                 "Load": "SEA",
-                "Longitude": "103.77816383333334",
+                "Longitude": "0.0",
                 "OriginCode": "47009",
                 "Type": "SD",
                 "VisitNumber": "1"
             },
             "NextBus3": {
-                "DestinationCode": "47009",
-                "EstimatedArrival": "2023-09-03T17:42:14+08:00",
+                "DestinationCode": "44009",
+                "EstimatedArrival": "2023-09-04T19:34:42+08:00",
                 "Feature": "WAB",
                 "Latitude": "0.0",
                 "Load": "SEA",
@@ -36,7 +36,7 @@
                 "VisitNumber": "1"
             },
             "Operator": "SMRT",
-            "ServiceNo": "925M"
+            "ServiceNo": "925"
         }
     ],
     "odata.metadata": "http://datamall2.mytransport.sg/ltaodataservice/$metadata#BusArrivalv2/@Element"

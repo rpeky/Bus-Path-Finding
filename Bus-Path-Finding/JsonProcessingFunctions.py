@@ -2,6 +2,7 @@ import httplib2 as http
 import json
 import os
 from urllib.parse import urlparse
+from datetime import datetime
 
 headers = { 'AccountKey': '4BXSLAQ5T+C4NJ6TA9/qjA==',
             'accept':   'application/json' 
@@ -109,6 +110,52 @@ def BusStopsData(skip):
     with open(full_path,'w') as outfile:
         json.dump(jsonObj, outfile, sort_keys=True, indent=4, ensure_ascii=False)
     return
+
+def BusArrivalData_gettimeforarrival(BusStopCode,ServiceNo):
+    target = urlparse('http://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2?BusStopCode='+str(BusStopCode)+'&ServiceNo='+str(ServiceNo))
+    target.geturl()
+    method = 'GET'
+    body = ''
+
+    h = http.Http()
+
+    response, content = h.request(
+        target.geturl(),
+        method,
+        body,
+        headers
+        )
+
+    jsonObj = json.loads(content)
+    #obtains nearest bus time to compare
+    timeraw=jsonObj['Services'][0]['NextBus']['EstimatedArrival'][11:19]
+    print(timeraw)
+    timeproc = datetime.strptime(timeraw, "%H:%M:%S")
+    #print(type(timeproc))
+    return timeproc
+    
+def BusArrivalData_gettimeforarrival_nextbusifnegative1dayresult(BusStopCode,ServiceNo):
+    target = urlparse('http://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2?BusStopCode='+str(BusStopCode)+'&ServiceNo='+str(ServiceNo))
+    target.geturl()
+    method = 'GET'
+    body = ''
+
+    h = http.Http()
+
+    response, content = h.request(
+        target.geturl(),
+        method,
+        body,
+        headers
+        )
+
+    jsonObj = json.loads(content)
+    #obtains nearest bus time to compare
+    timeraw=jsonObj['Services'][1]['NextBus']['EstimatedArrival'][11:19]
+    print(timeraw)
+    timeproc = datetime.strptime(timeraw, "%H:%M:%S")
+    #print(type(timeproc))
+    return timeproc   
 
 # def generate_busstopdict():
     

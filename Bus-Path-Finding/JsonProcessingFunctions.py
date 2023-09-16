@@ -134,7 +134,7 @@ def BusArrivalData_gettimeforarrival(BusStopCode,ServiceNo):
     #print(type(timeproc))
     return timeproc
     
-def BusArrivalData_gettimeforarrival_nextbusifnegative1dayresult(BusStopCode,ServiceNo):
+def BusArrivalData_gettimeforarrival_nextbusifnegative1dayresult_returntimeforbustoreach(BusStopCode,ServiceNo):
     target = urlparse('http://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2?BusStopCode='+str(BusStopCode)+'&ServiceNo='+str(ServiceNo))
     target.geturl()
     method = 'GET'
@@ -151,10 +151,28 @@ def BusArrivalData_gettimeforarrival_nextbusifnegative1dayresult(BusStopCode,Ser
 
     jsonObj = json.loads(content)
     #obtains nearest bus time to compare
-    timeraw=jsonObj['Services'][1]['NextBus']['EstimatedArrival'][11:19]
-    print(timeraw)
+    timeraw=jsonObj['Services'][0]['NextBus']['EstimatedArrival'][11:19]
     timeproc = datetime.strptime(timeraw, "%H:%M:%S")
-    #print(type(timeproc))
+    proctnow = datetime.strptime(datetime.now().time().strftime("%H:%M:%S"),"%H:%M:%S")
+
+    #print(timeproc)
+    #print(proctnow)
+    
+    timeforbustorach = timeproc - proctnow
+    
+    #check if bus already left /  (check if negative days due to difference)
+    if timeforbustorach.days < 0 :
+        print('bus either arrived or has left, going for next bus timing')
+        timeraw=jsonObj['Services'][0]['NextBus2']['EstimatedArrival'][11:19]
+        timeproc = datetime.strptime(timeraw, "%H:%M:%S")
+        proctnow = datetime.strptime(datetime.now().time().strftime("%H:%M:%S"),"%H:%M:%S")
+        #print(timeproc)
+        #print(proctnow)
+        timeforbustorach = timeproc - proctnow
+        #print(timeforbustorach)
+        return timeproc
+        
+    #print(timeforbustorach)
     return timeproc   
 
 # def generate_busstopdict():

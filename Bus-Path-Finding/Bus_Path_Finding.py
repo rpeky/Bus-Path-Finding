@@ -25,18 +25,12 @@ def idxfind(lst, w):
 
 def main():
     #firstrungendata()
-    # u1=UserClass.User()
-    # buses=u1.obtain_busin_initialstop()
-    # print(buses)
-    # sol = u1.find_immediate_solution(buses)
-    #print(sol)
-    a=JsonProcessingFunctions.BusArrivalData_gettimeforarrival(85039,45)
-    proctnow = datetime.strptime(datetime.now().time().strftime("%H:%M:%S"),"%H:%M:%S")
-    print(a)
-    print(proctnow)
-    print(a-proctnow)
-
-    #print(a-tnow)
+    u1=UserClass.User()
+    buses=u1.obtain_busin_initialstop()
+    print(buses)
+    sol = u1.find_immediate_solution(buses)
+    print(sol)
+ 
     return 
 
 

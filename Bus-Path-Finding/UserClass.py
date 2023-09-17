@@ -79,7 +79,7 @@ class User():
         sol['bus_totake']=''
         sol['dist']=100000
         sol['route_tour']=[]
-        sol['wait_time']=datetime.datetime.strptime('20:59:59', '%H:%M:%S')
+        sol['wait_time']=datetime.timedelta(days=2)
         for bus in availbus:
             routeinfo=JsonProcessingFunctions.open_load_json(bus,5)
             if any(self.destination in sublist for sublist in routeinfo['d1']) or any(self.destination in sublist for sublist in routeinfo['d2']):
@@ -102,14 +102,14 @@ class User():
 
                 #both route 1 and direct
                 
-                if inid1==True and destd1==True:
+                if (inid1 and destd1)==True and (inid2 and destd2) == False:
                     start_indx=idxfind(routeinfo['d1'],self.initialstop)
                     end_indx=idxfind(routeinfo['d1'],self.destination)
                     #print(start_indx,end_indx)
                     
                     # if end index is before start index, reject
                     if end_indx > start_indx:
-                        tempdist=routeinfo['d1'][end_indx][1]-routeinfo['d1'][start_indx][1]
+                        tempdist = routeinfo['d1'][end_indx][1]-routeinfo['d1'][start_indx][1]
                         temptime = JsonProcessingFunctions.BusArrivalData_gettimeforarrival_nextbusifnegative1dayresult_returntimeforbustoreach(self.initialstop, bus)
                         if tempdist<sol['dist'] and temptime < sol['wait_time']:
                             sol['bus_totake']=bus
@@ -123,19 +123,15 @@ class User():
                             print('bus takes too long')
                         elif tempdist > sol['dist']:
                             print('theres a shorter route')
-                            
-                        print('sol for bus {} is :'.format(bus))
-                        print(sol)
-                        
 
                     else:
                         print('end index is before start index, reject for straightforward case')
                 
                 #both route 2 and direct
 
-                elif inid2==True and destd2==True:
+                elif (inid2 and destd2)==True and (inid1 and destd1)==False:
                     start_indx=idxfind(routeinfo['d2'],self.initialstop)
-                    #end_indx=idxfind(routeinfo['d2'],self.destination)
+                    end_indx=idxfind(routeinfo['d2'],self.destination)
 
                     # reject if end index is before start index
                     if end_indx > start_indx:
@@ -153,9 +149,7 @@ class User():
                             print('bus takes too long')
                         elif tempdist > sol['dist']:
                             print('theres a shorter route')
-                            
-                        print('sol for bus {} is :'.format(bus))
-                        print(sol)
+
                     else:
                         print('end index is before start index, reject for straightforward case')        
                 

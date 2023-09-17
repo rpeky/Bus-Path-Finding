@@ -29,7 +29,7 @@ def main():
     buses=u1.obtain_busin_initialstop()
     print(buses)
     sol = u1.find_immediate_solution(buses)
-    print(sol)
+    #print(sol)
  
     return 
 

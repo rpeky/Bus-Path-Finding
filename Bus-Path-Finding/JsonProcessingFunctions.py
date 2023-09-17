@@ -2,7 +2,7 @@ import httplib2 as http
 import json
 import os
 from urllib.parse import urlparse
-from datetime import datetime
+from datetime import datetime, timedelta
 
 headers = { 'AccountKey': '4BXSLAQ5T+C4NJ6TA9/qjA==',
             'accept':   'application/json' 
@@ -150,7 +150,11 @@ def BusArrivalData_gettimeforarrival_nextbusifnegative1dayresult_returntimeforbu
         )
 
     jsonObj = json.loads(content)
+    #if bus is not running, give very huge time taken to skip
+    if not jsonObj['Services']:
+        return timedelta(days=100)
     #obtains nearest bus time to compare
+    #print(jsonObj)
     timeraw=jsonObj['Services'][0]['NextBus']['EstimatedArrival'][11:19]
     timeproc = datetime.strptime(timeraw, "%H:%M:%S")
     proctnow = datetime.strptime(datetime.now().time().strftime("%H:%M:%S"),"%H:%M:%S")
@@ -158,22 +162,18 @@ def BusArrivalData_gettimeforarrival_nextbusifnegative1dayresult_returntimeforbu
     #print(timeproc)
     #print(proctnow)
     
-    timeforbustorach = timeproc - proctnow
+    timeforbustoreach = timeproc - proctnow
     
     #check if bus already left /  (check if negative days due to difference)
-    if timeforbustorach.days < 0 :
+    if timeforbustoreach.days < 0 :
         print('bus either arrived or has left, going for next bus timing')
         timeraw=jsonObj['Services'][0]['NextBus2']['EstimatedArrival'][11:19]
         timeproc = datetime.strptime(timeraw, "%H:%M:%S")
-        proctnow = datetime.strptime(datetime.now().time().strftime("%H:%M:%S"),"%H:%M:%S")
-        #print(timeproc)
-        #print(proctnow)
-        timeforbustorach = timeproc - proctnow
-        #print(timeforbustorach)
-        return timeproc
-        
-    #print(timeforbustorach)
-    return timeproc   
+
+        timeforbustoreach = timeproc - proctnow
+        return timeforbustoreach
+    
+    return timeforbustoreach   
 
 # def generate_busstopdict():
     

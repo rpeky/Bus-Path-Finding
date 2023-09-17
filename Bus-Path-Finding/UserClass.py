@@ -84,11 +84,13 @@ class User():
             routeinfo=JsonProcessingFunctions.open_load_json(bus,5)
             if any(self.destination in sublist for sublist in routeinfo['d1']) or any(self.destination in sublist for sublist in routeinfo['d2']):
                 print('destination valid, bus {} has a direct route'.format(bus))
+                
                 #check stop in d1 or d2
                 inid1=False
                 inid2=False
                 destd1=False
                 destd2=False
+                
                 if any(self.initialstop in sublist for sublist in routeinfo['d1']):
                     inid1=True
                 if any(self.initialstop in sublist for sublist in routeinfo['d2']):
@@ -102,7 +104,7 @@ class User():
 
                 #both route 1 and direct
                 
-                if (inid1 and destd1)==True and (inid2 and destd2) == False:
+                if inid1==True and destd1==True and inid2==False and destd2==False:
                     start_indx=idxfind(routeinfo['d1'],self.initialstop)
                     end_indx=idxfind(routeinfo['d1'],self.destination)
                     #print(start_indx,end_indx)
@@ -112,6 +114,7 @@ class User():
                         tempdist = routeinfo['d1'][end_indx][1]-routeinfo['d1'][start_indx][1]
                         temptime = JsonProcessingFunctions.BusArrivalData_gettimeforarrival_nextbusifnegative1dayresult_returntimeforbustoreach(self.initialstop, bus)
                         if tempdist<sol['dist'] and temptime < sol['wait_time']:
+                            print('bus {} currently has fastest path'.format(bus))
                             sol['bus_totake']=bus
                             sol['dist']=tempdist
                             sol['route_tour']=[]
@@ -119,17 +122,19 @@ class User():
                                 sol['route_tour'].append(routeinfo['d1'][_][0])
                             sol['wait_time'] = temptime
                         #for debug purposes
-                        elif temptime < sol['wait_time']:
-                            print('bus takes too long')
+                        elif temptime > sol['wait_time']:
+                            print('bus {} takes too long'.format(bus))
                         elif tempdist > sol['dist']:
                             print('theres a shorter route')
+                        else:
+                            print('bus {} not currently in service'.format(bus))
 
                     else:
                         print('end index is before start index, reject for straightforward case')
                 
                 #both route 2 and direct
 
-                elif (inid2 and destd2)==True and (inid1 and destd1)==False:
+                elif inid1==False and destd1==False and inid2==True and destd2==True:
                     start_indx=idxfind(routeinfo['d2'],self.initialstop)
                     end_indx=idxfind(routeinfo['d2'],self.destination)
 
@@ -138,6 +143,7 @@ class User():
                         tempdist=routeinfo['d2'][end_indx][1]-routeinfo['d2'][start_indx][1]
                         temptime = JsonProcessingFunctions.BusArrivalData_gettimeforarrival_nextbusifnegative1dayresult_returntimeforbustoreach(self.initialstop, bus)
                         if tempdist<sol['dist'] and temptime < sol['wait_time']:
+                            print('bus {} currently has fastest path'.format(bus))
                             sol['bus_totake']=bus
                             sol['dist']=tempdist
                             sol['route_tour']=[]
@@ -145,15 +151,33 @@ class User():
                                 sol['route_tour'].append(routeinfo['d2'][_][0])
                             sol['wait_time'] = temptime
                         #for debug purposes
-                        elif temptime < sol['wait_time']:
-                            print('bus takes too long')
+                        elif temptime > sol['wait_time']:
+                            print('bus {} takes too long'.format(bus))
                         elif tempdist > sol['dist']:
                             print('theres a shorter route')
+                        else:
+                            print('bus {} not currently in service'.format(bus))
 
                     else:
                         print('end index is before start index, reject for straightforward case')        
                 
+
+                # potentially long cases (the opposite the road type cases, but currently only path finding through taking the bus)
+                # Start in route 1 but end in route 2, so possible to stay till interchange and swap to other route by retaking the bus
+                elif inid1==True and destd1==False and inid2==False and destd2==True:
+                    start_indx=idxfind(routeinfo['d1'],self.initialstop)
+                    end_indx=idxfind(routeinfo['d2'],self.destination)
+                    
+
+
                 
+                # Start in route 2 but end in route 1, so possible to stay till interchange and swap to other route by retaking the bus
+                elif inid1==False and destd1==False and inid2==True and destd2==True:
+                    start_indx=idxfind(routeinfo['d2'],self.initialstop)
+                    end_indx=idxfind(routeinfo['d1'],self.destination)
+                    
+
+
             else:
                 print('bus {} has no direct route'.format(bus))
                 continue

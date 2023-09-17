@@ -20,19 +20,14 @@ def firstrungendata():
 def idxfind(lst, w):
     for idx, i in enumerate(lst):
         if i[0]==w:
-            return idx
-    
+            return idx   
 
 def main():
     #firstrungendata()
-    u1=UserClass.User()
+    u1 = UserClass.User()
     buses=u1.obtain_busin_initialstop()
-    print(buses)
-    sol = u1.find_immediate_solution(buses)
-    #print(sol)
- 
+    u1.find_immediate_solution(buses)
     return 
-
 
 if __name__ == "__main__":
     start_time=time.process_time()
